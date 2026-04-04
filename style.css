@@ -1,0 +1,36 @@
+/* Variáveis ROOT */
+:root {
+    --primary-color: #3498db;
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+    --font-main: sans-serif;
+}
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Estilos Globais */
+
+body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* Layout Template */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1rem;
+}
