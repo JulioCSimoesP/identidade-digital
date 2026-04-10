@@ -9,6 +9,7 @@
 /* CSS reset */
 * {
     margin: 0;
+    border: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -25,14 +26,20 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
+    font-size: 0.75rem;
+}
+
+header {
+    border-style: solid;
+    border-width: 0 0 1px 0;
 }
 
 /* Layout Template */
-.container {
+.main-container {
     max-width: 1100px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 1rem;
+    padding: 0 1.25rem;
 }
 
 .lista-tecnologias {
@@ -48,3 +55,40 @@ body {
     content: "|";
     margin-left: 8px;
 }
+
+.lista-menu {
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1.2;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.font-size-2 {
+    font-size: 1.5rem;
+}
+
+.end-padding {
+    padding: 1rem 0;
+}
+
+
+/* Breakpoints */
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1100px) {}
