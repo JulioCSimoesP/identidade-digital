@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Júlio Simões | Identidade Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta name="description"
         content="Conheça o portfólio de Júlio Simões, Desenvolvedor Web e Analista de Sistemas residente em Jundiaí. Projetos desenvolvidos com Node.js, MongoDB, Wordpress e PHP, unindo lógica eficiente e foco na experiência do usuário. Veja meus trabalhos recentes aqui.">
-    <meta name=" author" content="Júlio Simões">
+    <meta name="author" content="Júlio Simões">
     <meta name="copyright" content="© 2026 Júlio Simões">
     <link rel="icon" type="image/png" href="assets/images/favicon.png"> <!-- criar e atualizar link do favicon -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- verificar necessidade -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- verificar necessidade -->
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#"> <!-- atualizar para cor da identidade visual -->
     <meta property="og:title" content="Júlio Simões | Identidade Digital">
@@ -26,10 +29,10 @@
 
 <body>
     <header>
-        <div class="flex menu start-end-padding">
-            <h1 class="font-size-2">Júlio Simões</h1>
-            <nav class="width-100">
-                <ul class="flex menu-list">
+        <div class="header-wrapper">
+            <h1>Júlio Simões</h1>
+            <nav>
+                <ul>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -38,145 +41,164 @@
         </div>
     </header>
 
-    <div class="main-container">
-        <main>
-            <section id="hero">
-                <div class="content-block">
-                    <div>
-                        <h2 class="font-size-1 hero-title">Desenvolvedor Web &<br>Analista de Sistemas</h2>
-                        <p class="text-align-center">Apaixonado por transformar ideias em <strong>soluções reais</strong> — Especializando-me em
-                            <strong>Node.js</strong> e
-                            <strong>MongoDB</strong> para entregar
-                            aplicações robustas, escaláveis e de alta performance.
-                        </p>
-                        <a href="#projetos" class="btn-primary width-100">Conheça meus projetos</a>
-                    </div>
-                    <div class="hero-image-wrapper">
-                        <img src="#" alt="Foto de Júlio Simões - Desenvolvedor Web & Analista de Sistemas em Jundiaí">
+    <main>
+        <section id="hero">
+            <div class="container hero-wrapper">
+                <div>
+                    <h2>Desenvolvedor Web &<br>Analista de Sistemas</h2>
+                    <p>Apaixonado por transformar ideias em <strong>soluções
+                            reais</strong> — Especializando-me em
+                        <strong>Node.js</strong> e
+                        <strong>MongoDB</strong> para entregar
+                        aplicações robustas, escaláveis e de alta performance.
+                    </p>
+                    <a href="#projetos" class="btn-primary">Conheça meus projetos</a>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="photo-frame">
+                        <img src="assets/images/julio-simoes-mobile.webp"
+                            alt="Foto de Júlio Simões - Desenvolvedor Web & Analista de Sistemas em Jundiaí" width="220"
+                            height="220">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="sobre">
+        <section id="sobre">
+            <div class="container sobre-wrapper">
                 <div>
                     <h2>Sobre mim</h2>
-                    <div>
-                        <p>
-                            Olá, meu nome é Júlio!
-                        </p>
-                        <p>Sou formado em <strong>Tecnologia em Análise e Desenvolvimento de Sistemas</strong> pela
-                            Fatec
-                            Jundiaí. Minha
-                            trajetória na tecnologia é guiada pela paixão em construir soluções digitais que unam lógica
-                            eficiente e boa experiência do usuário.</p>
-                        <p>
-                            Tive a oportunidade de atuar como <strong>Desenvolvedor Líder</strong> no projeto de
-                            reestruturação
-                            do site
-                            institucional da Fatec Jundiaí, onde coordenei a equipe no levantamento de requisitos e na
-                            implementação técnica utilizando <strong>WordPress</strong>, <strong>PHP</strong> e
-                            <strong>MySQL</strong>. Atualmente, colaboro com uma equipe
-                            internacional na plataforma OneForma, focando na qualidade de dados para sistemas de IA,
-                            enquanto
-                            aprofundo meus estudos no ecossistema <strong>Node.js</strong> e <strong>MongoDB</strong>.
-                        </p>
-                        <p>Busco minha primeira oportunidade como <strong>Desenvolvedor Júnior</strong>, focado em
-                            aplicar
-                            boas
-                            práticas de
-                            código e contribuir para projetos inovadores e escaláveis.</p>
-                    </div>
-                    <div>
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <div>
-                                <img src="#" alt="" aria-hidden="true">
-                            </div>
-                            <span>Visualizar currículo completo</span>
-                        </a>
-                    </div>
+                    <p>
+                        Olá, meu nome é Júlio! <span role="img" aria-label="mão acenando">&#128075;</span>
+                    </p><br>
+                    <p>Sou formado em <strong>Tecnologia em Análise e Desenvolvimento de Sistemas</strong> pela
+                        Fatec
+                        Jundiaí. Minha
+                        trajetória na tecnologia é guiada pela paixão em construir soluções digitais que unam lógica
+                        eficiente e boa experiência do usuário.</p><br>
+                    <p>
+                        Com experiência prática em projetos utilizando <strong>WordPress</strong>,
+                        <strong>PHP</strong> e <strong>MySQL</strong>, hoje estou a
+                        caminho de dominar o ecossistema <strong>Node.js</strong> e <strong>MongoDB</strong> a
+                        fim de criar aplicações ainda mais
+                        robustas e escaláveis.
+                    </p><br>
+                    <p>Estou em busca da minha primeira oportunidade como <strong>Desenvolvedor Júnior</strong>,
+                        pronto para
+                        aplicar boas práticas de código e crescer junto a times inovadores.</p>
                 </div>
-            </section>
+                <div>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-cv">
+                        <div class="cv-icon">
+                            <img src="assets/images/recruitment_8188110.png" aria-hidden="true" loading="lazy"
+                                width="160" height="160">
+                        </div>
+                        <span>Visualizar currículo completo</span>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-            <section id="projetos">
+        <section id="projetos">
+            <div class="container projetos-wrapper">
                 <h2>Meus Projetos</h2>
                 <div>
-                    <article class="card">
+                    <article>
                         <h3>Site Institucional | Fatec Jundiaí</h3>
-                        <p>Atuação como Desenvolvedor Líder na reestruturação completa do portal. Responsável pela
-                            coleta de requisitos, gestão de equipe e implementação de novas funcionalidades focadas em
-                            UX.</p>
-                        <ul class="keyword-list">
-                            <li>Wordpress</li>
-                            <li>PHP</li>
-                            <li>MySQL</li>
-                            <li>Elementor</li>
-                            <li>Kubio</li>
-                        </ul>
-                        <img src=""
-                            alt="Captura de tela do site institucional da Fatec Jundiaí, com layout moderno e responsivo">
-                        <a href="#">Acessar Site Oficial</a>
+                        <div>
+                            <p>Atuação como Desenvolvedor Líder na reestruturação completa do portal. Responsável
+                                pela
+                                coleta de requisitos, design de interface, gestão de equipe e implementação
+                                funcionalidades
+                                focadas
+                                em
+                                UX.</p>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>Elementor</li>
+                                <li>Kubio</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/site-institucional-fatec.webp"
+                            alt="Captura de tela do site institucional da Fatec Jundiaí, com layout moderno e responsivo"
+                            loading="lazy" width="420" height="210">
+                        <a href="https://fatecjd.edu.br/site/" target="_blank" rel="noopener noreferrer"
+                            class="btn-primary">Acessar
+                            site
+                            oficial</a>
                     </article>
-                    <article class="card">
+                    <article>
                         <h3>API REST Livraria | Backend</h3>
-                        <p>Desenvolvimento de uma API para controle de acervo, com foco em organização de código e
-                            separação de responsabilidades. Implementação de CRUD completo, sistema de pesquisa,
-                            tratamento de erros customizado e persistência de dados em NoSQL.</p>
-                        <ul class="keyword-list">
-                            <li>Node.js</li>
-                            <li>MongoDB</li>
-                            <li>Express</li>
-                            <li>Mongoose</li>
-                        </ul>
-                        <img src=""
-                            alt="Demonstração da API REST de Livraria no Postman, exibindo o retorno de dados de acervo em formato JSON">
-                        <a href="#">Ver Documentação no GitHub</a>
+                        <div>
+                            <p>Desenvolvimento de uma API para controle de acervo, com foco em organização de código
+                                e
+                                separação de responsabilidades. Implementação de CRUD completo, sistema de pesquisa,
+                                tratamento de erros customizado e persistência de dados em NoSQL.</p>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>Express</li>
+                                <li>Mongoose</li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/api-rest-livraria.webp"
+                            alt="Demonstração da API REST de Livraria no Postman, exibindo o retorno de dados de acervo em formato de tabela"
+                            loading="lazy" width="420" height="210">
+                        <a href="https://github.com/JulioCSimoesP/api-rest-livraria" target="_blank"
+                            rel="noopener noreferrer" class="btn-primary">Ver documentação no GitHub</a>
                     </article>
                 </div>
-            </section>
-
-            <section id="contato">
-                <div>
-                    <div>
-                        <h2>Vamos conversar?</h2>
-                        <p>Atualmente, estou em busca de novos desafios e oportunidades como Desenvolvedor Web Júnior.
-                            Se você
-                            tem um projeto em mente, uma vaga na sua equipe ou apenas quer trocar uma ideia sobre
-                            Node.js e
-                            MongoDB, sinta-se à vontade para entrar em contato!</p>
-                    </div>
-                    <form action="#" method="post">
-                        <div>
-                            <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" placeholder="Nome" required>
-                        </div>
-                        <div>
-                            <label for="email">E-mail</label>
-                            <input type="email" id="email" name="email" placeholder="E-mail" required>
-                        </div>
-                        <div>
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
-                        </div>
-                        <button type="submit">Enviar mensagem</button>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2026 Júlio Simões. Todos os direitos reservados.</p>
-            <div>
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                    aria-label="Entrar em contato com Júlio Simões pelo WhatsApp"><img src="#" alt=""
-                        aria-hidden="true"></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                    aria-label="Acessar o perfil de Júlio Simões no LinkedIn"><img src="#" alt=""
-                        aria-hidden="true"></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                    aria-label="Acessar o perfil de Júlio Simões no GitHub"><img src="#" alt="" aria-hidden="true"></a>
             </div>
-        </footer>
-    </div>
+        </section>
+
+        <section id="contato">
+            <div class="container contato-wrapper">
+                <div>
+                    <h2>Vamos conversar?</h2>
+                    <p>Atualmente, estou em busca de novos desafios e oportunidades como Desenvolvedor Web Júnior.
+                        Se você
+                        tem um projeto em mente, uma vaga na sua equipe ou apenas quer trocar uma ideia, sinta-se à
+                        vontade para entrar em contato!</p>
+                </div>
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrapper">
+            <p>&copy; 2026 Júlio Simões. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                    aria-label="Entrar em contato com Júlio Simões pelo WhatsApp"><img
+                        src="assets/svg/whatsapp-logo_icon-icons.com_57054.svg" aria-hidden="true" loading="lazy"></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                    aria-label="Acessar o perfil de Júlio Simões no LinkedIn"><img
+                        src="assets/svg/LINKEDIN_icon-icons.com_65488.svg" aria-hidden="true" loading="lazy"></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                    aria-label="Acessar o perfil de Júlio Simões no GitHub"><img
+                        src="assets/svg/github-logo_icon-icons.com_73546.svg" aria-hidden="true" loading="lazy"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
