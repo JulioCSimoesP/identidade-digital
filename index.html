@@ -56,9 +56,15 @@
                 </div>
                 <div class="hero-image-wrapper">
                     <div class="photo-frame">
-                        <img src="assets/images/julio-simoes-mobile.webp"
-                            alt="Foto de Júlio Simões - Desenvolvedor Web & Analista de Sistemas em Jundiaí" width="220"
-                            height="220">
+                        <picture>
+                            <source media="(min-width: 1100px)" srcset="assets/images/julio-simoes-desktop.webp">
+
+                            <source media="(min-width: 768px)" srcset="assets/images/julio-simoes-tablet.webp">
+
+                            <img src="assets/images/julio-simoes-mobile.webp"
+                                alt="Foto de Júlio Simões - Desenvolvedor Web & Analista de Sistemas em Jundiaí"
+                                width="220" height="220">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -130,7 +136,7 @@
                             oficial</a>
                     </article>
                     <article>
-                        <h3>API REST Livraria | Backend</h3>
+                        <h3>API REST Livraria</h3>
                         <div>
                             <p>Desenvolvimento de uma API para controle de acervo, com foco em organização de código
                                 e
