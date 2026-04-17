@@ -3,28 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Júlio Simões | Identidade Digital</title>
+    <meta name="description"
+        content="Conheça o portfólio de Júlio Simões, Desenvolvedor Web e Analista de Sistemas residente em Jundiaí. Projetos desenvolvidos com Node.js, MongoDB, Wordpress e PHP, unindo lógica eficiente e foco na experiência do usuário. Veja meus trabalhos recentes aqui.">
+    <meta name="author" content="Júlio Simões">
+    <meta name="copyright" content="© 2026 Júlio Simões">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta name="description"
-        content="Conheça o portfólio de Júlio Simões, Desenvolvedor Web e Analista de Sistemas residente em Jundiaí. Projetos desenvolvidos com Node.js, MongoDB, Wordpress e PHP, unindo lógica eficiente e foco na experiência do usuário. Veja meus trabalhos recentes aqui.">
-    <meta name="author" content="Júlio Simões">
-    <meta name="copyright" content="© 2026 Júlio Simões">
-    <link rel="icon" type="image/png" href="assets/images/favicon.png"> <!-- criar e atualizar link do favicon -->
+
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#"> <!-- atualizar para cor da identidade visual -->
+    <meta name="theme-color" content="#1a1a1a">
     <meta property="og:title" content="Júlio Simões | Identidade Digital">
     <meta property="og:description"
-        content="Conheça o portfólio de Júlio Simões, Desenvolvedor Web e Analista de Sistemas residente em Jundiaí. Projetos desenvolvidos com Node.js, MongoDB, Wordpress e PHP, unindo lógica eficiente e foco na experiência do usuário. Veja meus trabalhos recentes aqui.">
-    <meta property="og:image" content="#"> <!-- atualizar link da imagem de open graph -->
-    <meta property="og:url" content="#"> <!-- atualizar url do site -->
+        content="Conheça o portfólio de Júlio Simões, Desenvolvedor Web e Analista de Sistemas residente em Jundiaí.">
+    <meta property="og:image"
+        content="https://juliocsimoesp.github.io/identidade-digital/assets/images/open-graph-image.png">
+    <meta property="og:url" content="https://juliocsimoesp.github.io/identidade-digital/">
     <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Júlio Simões | Identidade Digital">
+    <meta name="twitter:image"
+        content="https://juliocsimoesp.github.io/identidade-digital/assets/images/open-graph-image.png">
+    <meta name="twitter:description"
+        content="Conheça o portfólio de Júlio Simões, Desenvolvedor Web e Analista de Sistemas residente em Jundiaí.">
+    <link rel="canonical" href="https://juliocsimoesp.github.io/identidade-digital/">
 </head>
 
 <body>
@@ -33,9 +49,9 @@
             <h1>Júlio Simões</h1>
             <nav>
                 <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -52,7 +68,7 @@
                         <strong>MongoDB</strong> para entregar
                         aplicações robustas, escaláveis e de alta performance.
                     </p>
-                    <a href="#projetos" class="btn-primary">Conheça meus projetos</a>
+                    <a href="#projects" class="btn-primary">Conheça meus projetos</a>
                 </div>
                 <div class="hero-image-wrapper">
                     <div class="photo-frame">
@@ -63,15 +79,15 @@
 
                             <img src="assets/images/julio-simoes-mobile.webp"
                                 alt="Foto de Júlio Simões - Desenvolvedor Web & Analista de Sistemas em Jundiaí"
-                                width="220" height="220">
+                                width="220" height="220" fetchpriority="high">
                         </picture>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="sobre">
-            <div class="container sobre-wrapper">
+        <section id="about">
+            <div class="container about-wrapper">
                 <div>
                     <h2>Sobre mim</h2>
                     <p>
@@ -94,9 +110,10 @@
                         aplicar boas práticas de código e crescer junto a times inovadores.</p>
                 </div>
                 <div>
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-cv">
+                    <a href="assets/documents/curriculo-julio-simoes.pdf" target="_blank" rel="noopener noreferrer"
+                        class="btn-cv">
                         <div class="cv-icon">
-                            <img src="assets/images/recruitment_8188110.png" aria-hidden="true" loading="lazy"
+                            <img src="assets/images/recruitment_8188110.png" alt="" aria-hidden="true" loading="lazy"
                                 width="160" height="160">
                         </div>
                         <span>Visualizar currículo completo</span>
@@ -105,8 +122,8 @@
             </div>
         </section>
 
-        <section id="projetos">
-            <div class="container projetos-wrapper">
+        <section id="projects">
+            <div class="container projects-wrapper">
                 <h2>Meus Projetos</h2>
                 <div>
                     <article>
@@ -159,8 +176,8 @@
             </div>
         </section>
 
-        <section id="contato">
-            <div class="container contato-wrapper">
+        <section id="contact">
+            <div class="container contact-wrapper">
                 <div>
                     <h2>Vamos conversar?</h2>
                     <p>Atualmente, estou em busca de novos desafios e oportunidades como Desenvolvedor Web Júnior.
@@ -168,15 +185,15 @@
                         tem um projeto em mente, uma vaga na sua equipe ou apenas quer trocar uma ideia, sinta-se à
                         vontade para entrar em contato!</p>
                 </div>
-                <form action="#" method="post">
+                <form action="https://formspree.io/f/xdayebwq" method="post">
                     <div class="form-row">
                         <div class="form-field">
                             <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" required>
+                            <input type="text" id="nome" name="nome" required autocomplete="name">
                         </div>
                         <div class="form-field">
                             <label for="email">E-mail</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" required autocomplete="email">
                         </div>
                     </div>
                     <div class="form-field">
@@ -193,19 +210,19 @@
         <div class="footer-wrapper">
             <p>&copy; 2026 Júlio Simões. Todos os direitos reservados.</p>
             <div class="social-links">
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                    aria-label="Entrar em contato com Júlio Simões pelo WhatsApp"><svg class="icon-social"
-                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+                <a href="https://wa.me/5511942579948?text=Olá%20Júlio,%20vi%20seu%20portfólio!" target="_blank"
+                    rel="noopener noreferrer" aria-label="Entrar em contato com Júlio Simões pelo WhatsApp"><svg
+                        class="icon-social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
                         <path
                             d="M90 43.841c0 24.213-19.779 43.841-44.182 43.841a44.26 44.26 0 0 1-21.357-5.455L0 90l7.975-23.522a43.4 43.4 0 0 1-6.34-22.637C1.635 19.628 21.416 0 45.818 0 70.223 0 90 19.628 90 43.841M45.818 6.982c-20.484 0-37.146 16.535-37.146 36.859 0 8.065 2.629 15.534 7.076 21.61L11.107 79.14l14.275-4.537A37.1 37.1 0 0 0 45.819 80.7c20.481 0 37.146-16.533 37.146-36.857S66.301 6.982 45.818 6.982m22.311 46.956c-.273-.447-.994-.717-2.076-1.254-1.084-.537-6.41-3.138-7.4-3.495-.993-.358-1.717-.538-2.438.537s-2.797 3.495-3.43 4.212c-.632.719-1.263.809-2.347.271-1.082-.537-4.571-1.673-8.708-5.333-3.219-2.848-5.393-6.364-6.025-7.441-.631-1.075-.066-1.656.475-2.191.488-.482 1.084-1.255 1.625-1.882.543-.628.723-1.075 1.082-1.793.363-.717.182-1.344-.09-1.883-.27-.537-2.438-5.825-3.34-7.977-.902-2.15-1.803-1.792-2.436-1.792-.631 0-1.354-.09-2.076-.09s-1.896.269-2.889 1.344-3.789 3.676-3.789 8.963c0 5.288 3.879 10.397 4.422 11.113.541.716 7.49 11.92 18.5 16.223C58.2 65.771 58.2 64.336 60.186 64.156c1.984-.179 6.406-2.599 7.312-5.107.9-2.512.9-4.663.631-5.111" />
                     </svg></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/julio-simoes-dev/" target="_blank" rel="noopener noreferrer"
                     aria-label="Acessar o perfil de Júlio Simões no LinkedIn"><svg class="icon-social"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path
                             d="M173.5 508.7v-330c0-3-.2-5.4 4.2-5.4 31.8.2 63.7.1 95.5.1.8 0 1.6.2 2.9.4v41.7c.4.1.7.3 1.1.4 4-5.2 7.8-10.6 12-15.7 12.2-15 27.5-26 45.5-32.6 9.8-3.6 20.5-5.8 30.8-6.3 14.2-.6 28.7-.4 42.7 2 23 3.9 43.3 14.1 60.1 30.8 15.9 15.7 26.4 34.6 32.1 55.9 3 11.3 4.9 22.9 6.7 34.4 1.2 8 1.8 16.2 1.8 24.2.1 65 .1 130 .1 195 0 1.6-.1 3.2-.2 5.3h-5.1c-30.7 0-61.3-.1-92 .1-5.1 0-6-1.7-6-6.3.1-59.8.3-119.7-.1-179.5-.1-10.5-1.1-21.4-3.8-31.5-4.9-17.7-16.1-30.5-33.9-37-15-5.5-30.2-6.5-45.6-2.6-17 4.3-28.7 15.6-37.5 30.5-6.8 11.5-8.1 24.2-8.2 36.9-.4 60.7-.2 121.3-.2 182v7.1c-34.5.1-68.4.1-102.9.1M109.1 342.6c0 53.3-.1 106.6.1 159.9 0 4.8-1 6.6-6.3 6.5q-45.75-.45-91.5 0c-5 0-6.1-1.7-6.1-6.3.1-107.1.1-214.3 0-321.4 0-4.3 1.2-5.8 5.6-5.8 30.8.2 61.6.2 92.5 0 4.8 0 5.7 1.8 5.7 6.1zM56.1 4.8C89 4 108.7 27.9 108.8 57.2c.1 30-20.9 52.4-53.9 52.3-30.7 0-52.4-22-52.3-53.1.1-29.1 21.2-52.6 53.5-51.6" />
                     </svg></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/JulioCSimoesP" target="_blank" rel="noopener noreferrer"
                     aria-label="Acessar o perfil de Júlio Simões no GitHub"><svg class="icon-social"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438.549 438.549">
                         <path
