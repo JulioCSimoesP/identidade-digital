@@ -41,7 +41,7 @@ O desenvolvimento técnico foi precedido por uma etapa de prototipagem para vali
 ### 🔗 Online
 O projeto está publicado e pode ser acessado diretamente via GitHub Pages:
 
-<a href="https://github.com/JulioCSimoesP/identidade-digital" target="_blank" rel="noopener noreferrer"><strong>Acessar Identidade Digital</strong></a>
+<a href="https://juliocsimoesp.github.io/identidade-digital/" target="_blank" rel="noopener noreferrer"><strong>Acessar Identidade Digital</strong></a>
 
 ### 💻 Localmente
 Caso deseje rodar o projeto em seu ambiente local:
