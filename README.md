@@ -15,7 +15,9 @@ O projeto tem como propósito central consolidar minha presença digital atravé
 
 ## 📐 Design e Planejamento
 
-O desenvolvimento técnico foi precedido por uma etapa de prototipagem para validar a arquitetura de informação e a interface do usuário (UI).
+O desenvolvimento técnico foi precedido por uma etapa de planejamento e prototipagem para validar o escopo, arquitetura de informação e a interface do usuário (UI).
+
+<a href="https://docs.google.com/document/d/1yLLzp98zWOskyE-tiNOKwko8zkYPuRwH/edit?usp=sharing&ouid=116572766923885297369&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"><strong>Visualizar Documentação de Requisitos</strong></a>
 
 <a href="https://www.figma.com/design/YP7sDxCdOtwiX0PvRA8xt4/projeto-identidade-digital?node-id=0-1&t=cxRa1bAwktowdMIP-1" target="_blank" rel="noopener noreferrer"><strong>Visualizar Wireframe do Projeto</strong></a>
 
